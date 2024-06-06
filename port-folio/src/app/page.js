@@ -16,17 +16,7 @@ export default function Home() {
       </div>
       <div className="row-span-2 flex flex-col my-10 justify-around">
         <h1 className="text-5xl">Damien Blot</h1>
-        <div className="flex my-10">
-          <h2 className="text-lg ml-2 mr-2">Porfolio créé en</h2>
-            <Image
-                    src="/next.svg"
-                    alt="next_logo"
-                    width={100}
-                    height={24}
-                    priority
-                  />
-        </div>
-        <div className="">
+        <div className="my-10">
           <ul className="list-disc">
             <li className="">
               <a href="https://www.salesforce.com/trailblazer/damienblot" target="_blank" className="flex mb-6 no-underline hover:underline hover:decoration-emerald-900 hover:decoration-4">
@@ -69,6 +59,24 @@ export default function Home() {
       </div>
       <div className="col-span-2 mx-20">
         <p>I am a Lead Salesforce developer with a IT diploma as software engineerer and developer. It has been 5 years, I am navigate in Salesforce environment. I am passionated about new technologies and build innovated and challenging projects</p>
+      </div>
+      <div className="flex mt-32">
+        <a href="https://github.com/DamienBlot/portfolio/tree/main/port-folio" target="_blank">Repository for the portfolio application in
+          <Image
+                      src="/next.svg"
+                      alt="next_logo"
+                      width={100}
+                      height={24}
+                      priority
+                    />
+          <Image
+                    src="/GitHub-logo.png"
+                    alt="github_logo"
+                    width={25}
+                    height={25}
+                    priority
+                  />
+        </a>
       </div>
     </main>
   );
