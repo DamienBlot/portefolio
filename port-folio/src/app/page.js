@@ -1,49 +1,75 @@
 import Image from "next/image";
+import "./globals.css";
 
 export default function Home() {
   return (
-    <main className="grid grid-cols-2 gap-4">
-      <div>
-      <Image
-              src="/profil_image.jpg"
-              alt="profile_image"
-              width={100}
-              height={24}
-              priority
-            />
-      </div>
-    <div>
-    <Image
-              src="/double-star-ranger.png"
-              alt="double-star-ranger"
-              width={100}
-              height={24}
-              priority
-            />
-    </div>
-    <div>
-    <h1>Damien Blot</h1>
-    <div className="flex flex-row justify-center">
-    <h2>Porfolio</h2>
-      <p>créé en 
+    <main className="grid grid-cols-2 gap-4 gap-y-5">
+      <div className="justify-self-center mt-10">
         <Image
-                src="/next.svg"
-                alt="next_logo"
-                width={100}
-                height={24}
+                src="/profil_image.jpg"
+                alt="profile_image"
+                width={200}
+                height={50}
                 priority
+                className="rounded-full border-2 border-gray-300"
               />
-      </p>
-    </div>
-    </div>
-    <div>
-    <ul className="list-disc">
-      <li>Trailhead Account</li> 
-      {/* <a href="https://www.salesforce.com/trailblazer/profile" target="_blank"> </a>*/}
-      <li>Linkedin Account</li>
-    </ul> 
-    </div>
-    <div><p>I am a Salesforce full stack developer with a IT diploma as software engineerer and developer.</p></div>
+      </div>
+      <div className="row-span-2 flex flex-col my-10 justify-around">
+        <h1 className="text-5xl">Damien Blot</h1>
+        <div className="flex my-10">
+          <h2 className="text-lg ml-2 mr-2">Porfolio créé en</h2>
+            <Image
+                    src="/next.svg"
+                    alt="next_logo"
+                    width={100}
+                    height={24}
+                    priority
+                  />
+        </div>
+        <div className="">
+          <ul className="list-disc">
+            <li className="">
+              <a href="https://www.salesforce.com/trailblazer/damienblot" target="_blank" className="flex mb-6 no-underline hover:underline hover:decoration-emerald-900 hover:decoration-4">
+                <p className="mr-5">My Trailhead </p>
+                <Image
+                  src="/trailhead-logo.png"
+                  alt="trailhead-logo"
+                  width={25}
+                  height={25}
+                  priority
+                />
+              </a>
+            </li> 
+            <li>
+              <a href="https://www.linkedin.com/in/damien-blot-05158496/" target="_blank" className="flex mb-6 no-underline hover:underline hover:decoration-emerald-900 hover:decoration-4">
+                <p className="mr-5">My Linkedin</p>
+              <Image
+                    src="/linkedin-logo.png"
+                    alt="inkedin-logo"
+                    width={25}
+                    height={25}
+                    priority
+                  />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/DamienBlot"  target="_blank" className="flex mb-6 no-underline hover:underline hover:decoration-emerald-900 hover:decoration-4">
+                <p className="mr-5">My Github</p>
+                <Image
+                    src="/GitHub-logo.png"
+                    alt="github_logo"
+                    width={25}
+                    height={25}
+                    priority
+                  />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="col-span-2 mx-20">
+        <p>I am a Lead Salesforce developer with a IT diploma as software engineerer and developer. It has been 5 years, I am navigate in Salesforce environment. I am passionated about new technologies and build innovated and challenging projects</p>
+      </div>
     </main>
   );
 }
