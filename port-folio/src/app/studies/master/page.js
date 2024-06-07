@@ -4,18 +4,17 @@ export default function StudiesMaster() {
             <h2 className=" col-span-2 text-5xl justify-self-center mt-10" >Master of Science</h2>
             <h3 className=" col-span-2 text-2xl justify-self-center mb-10">software Architecte and Application Developer</h3>
             <div>
-                <p>During 2 years have been doing my apprenticeship for <a href="https://etna.io/formation/master-of-science-1-2-developpeur-dapplication-et-architecte-logiciel/" target="_blank">Master of Science on software architecte, Application Developer</a>. I have been working multiple projects in different informatic languages as C, react.js and node.js</p>
+                <p>During 2 years have been doing my apprenticeship for <a href="https://etna.io/formation/master-of-science-1-2-developpeur-dapplication-et-architecte-logiciel/" target="_blank" className="hover:underline hover:decoration-emerald-900 hover:decoration-4">Master of Science on software architecte, Application Developer</a>. I learnt about different tehcnologies as Nodejs, Express.js, Sequelize, Docker, Reactjs.</p>
             </div>
             <div>
                 <h3 className="text-2xl mb-10">Projects</h3>
                 <ul className="list-disc">
-                    <li className="mb-5">Integration between Salesforce ad external Services(ERP, international services,...)</li>
-                    <li className="mb-5">Salesforce custom application</li>
-                    <li className="mb-5">administratif duties</li>
-                    <li className="mb-5">report</li>
-                    <li className="mb-5">Maintien and fix potentiel issues in Salesforce</li>
-                    <li className="mb-5">CI/CD</li>
-                    <li className="mb-5">DEVOPS Center</li>
+                    <li className="mb-5">création d'un serveur http en C</li>
+                    <li className="mb-5">création d'une application desktop .net, C# </li>
+                    <li className="mb-5">création d'une application en java + servlet</li>
+                    <li className="mb-5">connaissance en nodejs, express, sequelize, docker, reactjs</li>
+                    <li className="mb-5">sécurité de l'information (test de faille de sécurité sur un site web)</li>
+                    <li className="mb-5">réation d'une application spring boot, reactjs</li>
                 </ul>
             </div>
 
