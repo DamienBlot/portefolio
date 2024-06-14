@@ -16,6 +16,8 @@ export default function Salesforce() {
                     <li className="mb-5">Salesforce REST/Soap API</li>
                     <li className="mb-5">Salesforce Bulk API</li>
                     <li className="mb-5">Salesforce Metadata API</li>
+                    <li className="mb-5">Salesforce inspector</li>
+                    <li className="mb-5">Dataloader</li>
                     <li className="mb-5">Administratif Tasks</li>
                     <li className="mb-5">Report</li>
                 </ul>
