@@ -17,6 +17,7 @@ export default function StudiesMaster() {
                     <li className="mb-5">Use Docker to Containerize application </li>
                     <li className="mb-5">Develop spring boot API (backend) and React.js (frontend)</li>
                     <li className="mb-5">Informatic security, hacking website and test/find security breach</li>
+                    <li className="mb-5">Using Github for working in team in a project</li>
                 </ul>
             </div>
 
